@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorry Sutrishna</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background Music -->
+    <audio id="bg-music" autoplay loop>
+        <source src="videoplayback-[AudioTrimmer.com].mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Envelope Animation -->
+    <div class="container">
+      <div class="envelope-container" onclick="releasePigeon()">
+        <div class="envelope">
+            <div class="flap"></div>
+            <div class="letter">
+                <p>Click to Open</p>
+            </div>
+        </div>
+    </div>
+        <div class="pigeon" id="pigeon">
+            <img src="pexels-timmossholder-1884017.jpg" alt="Pigeon">
+        </div>
+        <div class="sorry-note" id="sorry-note">
+           <p>I’m so sorry, Sutrishna. Please khoma kore de. 💖 Ami jani I am not the best one for you, amr onek onek baje ache, but trust me, ami tke amr sob ta diye khub bhalobashi re. Please, upset hye thakish na r, rege thakish na—sob theke priyo jinish ta hariye jachche lagche. Please nijeke amr theke dure kore rakhish na, please. Amr dom bondho lage khub, koshto hy khub tui na thakle. Ekdin toh sbai chole jabe duniya chere, totodin amr favourite ta k please thakte de amr kache. Please ekbar joriye dekh, ami hyto bhya bhya kore kede felbo. Ami konodin o tke koshto debo bole kichu korini re, sottyi bolchi, konodin o na. Tr khushir jonnye ami sob sacrifice korte pari, sob ta.</p>
+        </div>
+    </div>
+
+    <!-- Floating Hearts Effect -->
+    <div id="heart-container"></div>
+
+    <!-- Photo Gallery -->
+    <div class="photo-gallery">
+        
+        <img src="IMG-20241012-WA0028.JPG" alt="Us">
+        <img src="1eee8ba4-5fe1-4a6f-b89c-9bec587a830a.JPG" alt="Us">
+        <img src="IMG_20241012_230729_290.WEBP" alt="Us">
+    </div>
+
+    <!-- Apology Button -->
+    <button class="forgive-btn" onclick="revealMessage()">Click me first then the envelope</button>
+    <div id="hidden-message" class="hidden-message">
+        <p>Please kache phire ay ❤️</p>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
